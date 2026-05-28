@@ -1,0 +1,61 @@
+{
+  "name": "1TAM-MD",
+  "description": "1TAM-MD WhatsApp Multi-Device Bot with AI Chat",
+  "repository": "https://github.com/yourusername/1TAM-MD",
+  "logo": "https://i.imgur.com/cP1KBCQ.png",
+  "keywords": ["whatsapp", "bot", "md", "ai"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Your bot session ID. Get it by running the bot locally once and scanning the QR code, then run: node getSession.js",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number with country code, no + or spaces. Example: 2348012345678",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Your display name",
+      "required": true
+    },
+    "GEMINI_API_KEY": {
+      "description": "Google Gemini API key for AI chat. Get free key at: aistudio.google.com/app/apikey",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Bot command prefix character",
+      "value": ".",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "Allow anyone to use the bot (true = public, false = contacts only)",
+      "value": "false",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Your timezone e.g. Africa/Lagos, America/New_York, Asia/Kolkata",
+      "value": "Africa/Lagos",
+      "required": false
+    },
+    "AI_ENABLED": {
+      "description": "Enable AI chat feature",
+      "value": "true",
+      "required": false
+    },
+    "AI_PROVIDER": {
+      "description": "AI provider: gemini or openai",
+      "value": "gemini",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
