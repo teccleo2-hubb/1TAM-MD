@@ -6,9 +6,9 @@
 
 ## Quick Actions
 
-[![Fork on GitHub](https://img.shields.io/badge/Fork_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/1TAM-MD/fork)
-[![Download ZIP](https://img.shields.io/badge/Download_ZIP-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/1TAM-MD/archive/refs/heads/main.zip)
-[![Deploy to Heroku](https://img.shields.io/badge/Deploy_to_Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/yourusername/1TAM-MD)
+[![Fork on GitHub](https://img.shields.io/badge/Fork_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/teccleo2-hubb/1TAM-MD/fork)
+[![Download ZIP](https://img.shields.io/badge/Download_ZIP-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/https://github.com/teccleo2-hubb//1TAM-MD/archive/refs/heads/main.zip)
+[![Deploy to Heroku](https://img.shields.io/badge/Deploy_to_Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/teccleo2-hubb/1TAM-MD)
 [![Deploy to Railway](https://img.shields.io/badge/Deploy_to_Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/yourusername/1TAM-MD)
 
 ---
